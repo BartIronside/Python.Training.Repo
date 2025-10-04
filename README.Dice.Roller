@@ -1,0 +1,33 @@
+# 🎲 Dice Roller (Python)
+
+A simple console-based dice rolling simulator written in Python.  
+The program randomly generates dice rolls, displays them using ASCII art, and calculates the total result.
+
+---
+
+## 🚀 Features
+- Roll from 1 to 6 dice per turn  
+- Random results using Python’s `random` module  
+- Clean ASCII art visualization of dice  
+- Input validation and replay option (`y/n`)  
+- Clear total score display after each roll  
+
+---
+
+## 🖥️ Example gameplay
+How many dice? (1–6): 3
+
+┌─────────┐ ┌─────────┐ ┌─────────┐
+│  ●    ● │ │ ●       │ │  ● ● ●  │
+│         │ │    ●    │ │         │
+│  ●    ● │ │       ● │ │  ● ● ●  │
+└─────────┘ └─────────┘ └─────────┘
+
+Total: 12
+Rolled values: [4, 3, 5]
+
+Wanna play again? (y/n): y
+
+
+
+
